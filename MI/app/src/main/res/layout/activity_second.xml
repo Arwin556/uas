@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pet"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SecondActivity">
+
+        <TextView
+            android:id="@+id/TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:textStyle="bold"
+            android:textSize="32sp"
+            android:background="#FFFFFF"
+            android:text="Tentang Aplikasi"/>
+        <TextView
+            android:id="@+id/TV2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/TV"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:background="#F6F35F"
+            android:text="Aplikasi ini menyediakan pemesanan makanan untuk hewan peliharaan kesayangan Anda. Kami menyediakan berbagai jenis makanan untuk hewan peliharan diantaranya: \n~Makanan Kucing \n~Makanan Anjing \n~Makanan Ikan \n\nMakanan yang ada di aplikasi ini merupakan makanan hewan pilihan dengan kualitas premium dan terstandardisasi tetapi tetap dengan harga yang terjangkau. "/>
+        <TextView
+            android:id="@+id/TV3"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/TV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="16dp"
+            android:layout_marginLeft="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:background="#FFFFFF"
+            android:text="Hubungi Kami"/>
+        <TextView
+            android:id="@+id/TV4"
+            android:layout_below="@id/TV3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F6F354"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="Perusahaan: PT UniDeka \nAlamat Perusahaan: Jalan Mataram Lorong Demak Nomor 309A, RT 08, RW 02, Kelurahan Kemas Rindo, Kecamatan Kertapati, Palembang, Sumatra Selatan \nFacebook: Arwin Permata Putra \nLine:@arwinurara \nWA: 089503488268"/>
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TV4"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="8dp"
+            android:text="Kembali ke menu sebelumnya" />
+
+    </RelativeLayout>
+</ScrollView>
